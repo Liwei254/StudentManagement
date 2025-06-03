@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">studentmanagement</string>
+    <string name="admission_number">Admission Number</string>
+    <string name="student_name">Student Name</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="32dp"
+        android:text="Sign up page"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/main4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Registration">
+
+        <LinearLayout
+            android:id="@+id/main2"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:context=".Registration"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="#6A0B0B"
+                android:layout_marginBottom="8dp"
+                android:text="Enter First Name"
+                android:orientation="horizontal"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Last Name"
+                android:padding="16dp"
+                android:textColor="#6A0B0B"
+                android:orientation="horizontal"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Email"
+                android:padding="16dp"
+                android:textColor="#6A0B0B"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Password"
+                android:padding="16dp"
+                android:textColor="#6A0B0B"
+                android:orientation="horizontal"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:context=".Registration"
+            android:layout_weight="1.5">
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="First Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="Last name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textSize="24sp"
+        android:onClick="submit"
+        android:layout_marginTop="80dp"
+        android:text="Submit"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:textSize="24sp"
+        android:onClick="cancel"
+        android:layout_marginTop="16dp"
+        android:text="Cancel"/>
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:onClick="loginpage"
+        android:textColor="#0000ff"
+        android:layout_marginRight="80dp"
+        android:text="Login" />
+</LinearLayout>

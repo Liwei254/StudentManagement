@@ -1,0 +1,41 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/admission_number"
+            android:hint="@string/admission_number"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/student_name"
+            android:hint="@string/student_name"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Subject Marks -->
+        <EditText android:id="@+id/math_mark" android:hint="Math" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/english_mark" android:hint="English" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/kiswahili_mark" android:hint="Kiswahili" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/chemistry_mark" android:hint="chemistry" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Physics_mark" android:hint="Physics" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/Biology_mark" android:hint="Biology" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:text="Add Student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

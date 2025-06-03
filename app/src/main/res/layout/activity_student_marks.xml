@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:padding="4dp">
+
+    <TextView android:id="@+id/admission_number"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/student_name"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/math_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText android:id="@+id/english_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText android:id="@+id/kiswahili_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText android:id="@+id/science_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText android:id="@+id/social_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText android:id="@+id/ire_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView android:id="@+id/total_mark"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/grade_mark"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
