@@ -13,5 +13,6 @@
 | Onyango Collince | SIT/B/01-03315/2023 |
 | Ian Mwilitsa | ITE/D/01-06590/2023 |
 | Muhako Trevor | ITE/D/01-58933/2023 |
+| Otwele Saul   | ITE/D/01_06593/2023 |
 | Austin Mukabwa   | Attachee |
 | Deborah kwamboka    | Attachee |
