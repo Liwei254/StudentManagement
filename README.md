@@ -5,7 +5,7 @@
 | ------------- | -------------       |
 | James Otipa   | COM/B/01-56390/2022 |
 | Hezron Njenga | COM/B/01-00093/2023 |
-| Mercyline nyaboke Mokua | COM/B/01-00143/2023 |
+| Mercyline nyaboke Mokua | COM/B/01-00119/2023 |
 | Mose Zachary  | COM/B/01-00144/2023 |
 | Bob Nyabwanga | SIT/B/01-03255/2023 |
 | Maxwel Makobi | SIT/B/01-57409/2023 |
