@@ -11,4 +11,5 @@
 | Maxwel Makobi | SIT/B/01-57409/2023 |
 | James Mutheki   | SIT/B/01-03283/2023 |
 | Onyango Collince | SIT/B/01-03315/2023 |
-| Ian Mwilitsaa | ITE/D/01-06590/2023 |
+| Ian Mwilitsa | ITE/D/01-06590/2023 |
+| Muhako Trevor | ITE/D/01-58933/2023 |
